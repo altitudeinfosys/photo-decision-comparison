@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "datasetType": "synthetic",
+  "title": "Photo Decision Comparison",
+  "recordedDate": "fictional demo",
+  "sourceTitle": "Original synthetic sample data",
+  "sourceVersion": "1",
+  "sourceUrl": null,
+  "photosNote": "Original schematic illustrations only. No private photos.",
+  "cases": [
+    {
+      "id": "DEMO001",
+      "label": "Demo 01",
+      "sourceLabel": "Fictional",
+      "optionSet": "Illustrative choices",
+      "batch": "Synthetic examples",
+      "photos": [
+        {
+          "src": "assets/demo-1.svg",
+          "alt": "Original schematic illustration 1; not a real photo",
+          "kind": "synthetic illustration",
+          "publicApproved": true
+        }
+      ],
+      "models": {
+        "clef": {
+          "status": "synthetic example",
+          "fields": {
+            "Trade": "plumber",
+            "Urgency": "routine",
+            "Visible symptom": "visible leak or water",
+            "More information": "yes",
+            "Clarification reason": "insufficient description",
+            "Hazard flags": "none"
+          },
+          "inputTokens": null,
+          "estimatedCostUsd": null,
+          "actualCostUsd": null,
+          "latencyMs": null
+        },
+        "flash": {
+          "status": "synthetic example",
+          "fields": {
+            "Trade": "plumber",
+            "Urgency": "routine",
+            "Visible symptom": "visible leak or water",
+            "More information": "yes",
+            "Clarification reason": "insufficient description",
+            "Hazard flags": "none"
+          },
+          "inputTokens": null,
+          "estimatedCostUsd": null,
+          "actualCostUsd": null,
+          "latencyMs": null
+        },
+        "openai": {
+          "status": "synthetic example",
+          "fields": {
+            "Trade": "plumber",
+            "Urgency": "priority review",
+            "Visible symptom": "visible leak or water",
+            "More information": "yes",
+            "Clarification reason": "insufficient description",
+            "Hazard flags": "none"
+          },
+          "inputTokens": null,
+          "estimatedCostUsd": null,
+          "actualCostUsd": null,
+          "latencyMs": null
+        }
+      }
+    },
+    {
+      "id": "DEMO002",
+      "label": "Demo 02",
+      "sourceLabel": "Fictional",
+      "optionSet": "Illustrative choices",
+      "batch": "Synthetic examples",
+      "photos": [
+        {
+          "src": "assets/demo-2.svg",
+          "alt": "Original schematic illustration 2; not a real photo",
+          "kind": "synthetic illustration",
+          "publicApproved": true
+        }
+      ],
+      "models": {
+        "clef": {
+          "status": "synthetic example",
+          "fields": {
+            "Trade": "painter",
+            "Urgency": "routine",
+            "Visible symptom": "visible damage",
+            "More information": "yes",
+            "Clarification reason": "insufficient description",
+            "Hazard flags": "none"
+          },
+          "inputTokens": null,
+          "estimatedCostUsd": null,
+          "actualCostUsd": null,
+          "latencyMs": null
+        },
+        "flash": {
+          "status": "synthetic example",
+          "fields": {
+            "Trade": "general maintenance",
+            "Urgency": "routine",
+            "Visible symptom": "visible damage",
+            "More information": "yes",
+            "Clarification reason": "insufficient description",
+            "Hazard flags": "none"
+          },
+          "inputTokens": null,
+          "estimatedCostUsd": null,
+          "actualCostUsd": null,
+          "latencyMs": null
+        },
+        "openai": {
+          "status": "synthetic example",
+          "fields": {
+            "Trade": "painter",
+            "Urgency": "routine",
+            "Visible symptom": "visible damage",
+            "More information": "yes",
+            "Clarification reason": "insufficient description",
+            "Hazard flags": "none"
+          },
+          "inputTokens": null,
+          "estimatedCostUsd": null,
+          "actualCostUsd": null,
+          "latencyMs": null
+        }
+      }
+    },
+    {
+      "id": "DEMO003",
+      "label": "Demo 03",
+      "sourceLabel": "Fictional",
+      "optionSet": "Illustrative choices",
+      "batch": "Synthetic examples",
+      "photos": [
+        {
+          "src": "assets/demo-3.svg",
+          "alt": "Original schematic illustration 3; not a real photo",
+          "kind": "synthetic illustration",
+          "publicApproved": true
+        }
+      ],
+      "models": {
+        "clef": {
+          "status": "synthetic example",
+          "fields": {
+            "Trade": "unknown",
+            "Urgency": "routine",
+            "Visible symptom": "no visible issue",
+            "More information": "yes",
+            "Clarification reason": "insufficient description",
+            "Hazard flags": "none"
+          },
+          "inputTokens": null,
+          "estimatedCostUsd": null,
+          "actualCostUsd": null,
+          "latencyMs": null
+        },
+        "flash": {
+          "status": "synthetic example",
+          "fields": {
+            "Trade": "unknown",
+            "Urgency": "routine",
+            "Visible symptom": "no visible issue",
+            "More information": "yes",
+            "Clarification reason": "insufficient description",
+            "Hazard flags": "none"
+          },
+          "inputTokens": null,
+          "estimatedCostUsd": null,
+          "actualCostUsd": null,
+          "latencyMs": null
+        },
+        "openai": {
+          "status": "synthetic example",
+          "fields": {
+            "Trade": "unknown",
+            "Urgency": "routine",
+            "Visible symptom": "no visible issue",
+            "More information": "yes",
+            "Clarification reason": "insufficient description",
+            "Hazard flags": "none"
+          },
+          "inputTokens": null,
+          "estimatedCostUsd": null,
+          "actualCostUsd": null,
+          "latencyMs": null
+        }
+      }
+    }
+  ]
+}
